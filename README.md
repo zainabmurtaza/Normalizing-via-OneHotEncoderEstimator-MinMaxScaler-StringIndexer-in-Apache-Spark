@@ -1,0 +1,2 @@
+# Normalizing-via-OneHotEncoderEstimator-MinMaxScaler-StringIndexer-in-Apache-Spark
+Used OneHotEncoderEstimator, StringIndexer MinMaxScaler to transform multiple columns, returning a one-hot-encoded output vector column for each input column. It is common to then merge these vectors into a single feature vector using VectorAssembler. Normalized and scaled numerical data, transformed categorical data into binary sparse vector. Normalization such as z-score techniques, center, decimal, and unitSum were used. 
